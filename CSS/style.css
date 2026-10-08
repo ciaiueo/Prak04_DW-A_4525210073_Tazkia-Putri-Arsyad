@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff7fb;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Header */
+
+header {
+    background-color: #d96c9d;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+/* Hero */
+
+#hero {
+    background-color: #ffe1ee;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    color: #8e3d68;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    background-color: #d96c9d;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+
+/* Section */
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section h2 {
+    color: #8e3d68;
+    margin-bottom: 30px;
+}
+
+
+/* Layanan */
+
+.service-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-card {
+    background-color: white;
+    width: 30%;
+    padding: 25px;
+    border: 2px solid #f0b6d0;
+    border-radius: 12px;
+}
+
+.service-card h3 {
+    color: #d96c9d;
+}
+
+.service-card p {
+    line-height: 1.6;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #8e3d68;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 90%;
+    }
+
+    header .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+
+    .hero-content h2 {
+        font-size: 28px;
+    }
+
+    .service-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 90%;
+    }
+}
